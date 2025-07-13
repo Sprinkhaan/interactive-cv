@@ -1,15 +1,50 @@
-# Global
+# Algemene bestanden
 .DS_Store
-node_modules/
-target/
+Thumbs.db
 *.log
 
-# Frontend (Next.js / Vite / React etc.)
+# Node.js en frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vscode/
+
+# Frontend specifieke Next.js bestanden
 frontend/.next/
 frontend/.env.local
+frontend/.env
+frontend/out/
+frontend/.turbo/
+frontend/.vercel/
 
-# Backend (Spring Boot)
+# Maven build output (backend)
+target/
+
+# IntelliJ IDEA bestanden
+*.iml
+.idea/
+*.ipr
+*.iws
+out/
+
+# Backend specifieke bestanden
 backend/target/
 backend/.idea/
 backend/*.iml
 backend/.env
+backend/application.properties
+backend/application.yml
+backend/application-local.properties
+
+# OS-specifieke bestanden
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Git sensitive files
+*.pem
+*.key
+*.crt
+*.cert
