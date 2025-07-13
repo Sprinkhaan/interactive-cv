@@ -1,0 +1,15 @@
+# Global
+.DS_Store
+node_modules/
+target/
+*.log
+
+# Frontend (Next.js / Vite / React etc.)
+frontend/.next/
+frontend/.env.local
+
+# Backend (Spring Boot)
+backend/target/
+backend/.idea/
+backend/*.iml
+backend/.env
